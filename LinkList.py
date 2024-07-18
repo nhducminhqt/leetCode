@@ -9,5 +9,5 @@ class Solution(object):
             if p.next.val == p.val:
                 p.next = p.next.next
             else:
-                p=p.next.val
+                p=p.next
         return head
