@@ -8,7 +8,8 @@ class Solution:
             if right > 0 and colors[right] == colors[right - 1]:
                 left = right  
             
-            if right - left + 1 >= k:
+            
+            if right  - left + 1 >= k:
                 count += 1  
         
         return count
