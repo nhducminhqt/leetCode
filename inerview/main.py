@@ -6,7 +6,7 @@ from fastapi import Depends
 from pydantic import BaseModel
 from datetime import datetime, timedelta
 from fastapi.security import HTTPBearer
-from inerview.security import validate_token, reusable_oauth2
+from security import validate_token
 app = FastAPI(
     title='FastAPI JWT', openapi_url='/openapi.json', docs_url='/docs',
     description='fastapi jwt'
