@@ -24,6 +24,7 @@ class Solution(object):
                 lcs.append(str1[i - 1])
                 i -= 1
                 j -= 1
+                
             elif dp[i - 1][j] > dp[i][j - 1]:
                 i -= 1
             else:
