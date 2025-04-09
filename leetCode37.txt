@@ -1,0 +1,6 @@
+class Solution:
+    def minOperations(self, nums: List[int], k: int) -> int:
+        if nums==[k]*len(nums):
+            return 0
+        s=set()
+        
