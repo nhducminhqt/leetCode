@@ -11,6 +11,7 @@ class Solution:
                     continue
                 for k in range(j + 1, n):
                     ak = arr[k]
+                    
                     diff_jk = abs(aj - ak)
                     if diff_jk > b:
                         continue
