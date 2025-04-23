@@ -4,6 +4,12 @@ class Solution:
         prefixSum = 0
         result = 0
         
-        
+        for num in nums:
+            if num % modulo == k:
+                prefixSum += 1
+            remainder = prefixSum % modulo
+            target = (remainder - k) % modulo
+            result += prefixModCount.get(target, 0)            
+            prefixModCount[remainder] = prefixModCount.get(remainder, 0) + 1
         
         return result 
