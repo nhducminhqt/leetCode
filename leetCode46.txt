@@ -1,4 +1,5 @@
 2302. Count Subarrays With Score Less Than K
+
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
         if k<=1: return 0
