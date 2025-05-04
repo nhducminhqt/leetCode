@@ -7,7 +7,6 @@ class Solution:
         dp = [[INF]*m for _ in range(n)]
         minh = [(0, 0, 0)]
         moveTime[0][0] = 0
-
         directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
         while minh:
             currTime, currRow, currCol = heapq.heappop(minh)
