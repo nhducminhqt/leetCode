@@ -1,3 +1,4 @@
+1948. Delete Duplicate Folders in System
 class Solution:
     def deleteDuplicateFolder(self, paths: List[List[str]]) -> List[List[str]]:
         tree = {}
