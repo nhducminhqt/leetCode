@@ -1,0 +1,4 @@
+3195. Find the Minimum Area to Cover All Ones I
+You are given a 2D binary array grid. Find a rectangle with horizontal and vertical sides with the smallest area, such that all the 1's in grid lie inside this rectangle.
+
+Return the minimum possible area of the rectangle.
