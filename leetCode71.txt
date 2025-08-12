@@ -1,1 +1,4 @@
 904. Fruit Into Baskets
+class Solution:
+    def totalFruit(self, fruits: List[int]) -> int:
+        
